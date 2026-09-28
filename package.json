@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/signetag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sign CSV/TSV etag tables for quick inspection and cleanup.",
+  "bin": {
+    "signetag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/signetag.git"
+  },
+  "homepage": "https://theworker02.github.io/signetag/",
+  "keywords": [
+    "sign",
+    "etag",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
